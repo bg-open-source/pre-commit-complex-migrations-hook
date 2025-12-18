@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 name = 'pre_commit_complex_migrations_hook'
-version = '1.0.0'
+version = '1.0.1'
 description = 'pre-commit hook for validating complexity of alembic migrations'
 
 # Package setup
