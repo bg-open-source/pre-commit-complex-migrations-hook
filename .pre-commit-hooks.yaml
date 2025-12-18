@@ -1,5 +1,5 @@
 - id: check-complex-migrations
   name: check-complex-migrations-hook
-  entry: check_complex_migrations
+  entry: check-complex-migrations-hook
   description: pre-commit hooks for merging content from different files to one
   language: python
