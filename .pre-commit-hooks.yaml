@@ -3,3 +3,9 @@
   entry: check-complex-migrations-hook
   description: pre-commit hooks for merging content from different files to one
   language: python
+- id: check-enum-cdc
+  name: check-enum-cdc-hook
+  entry: check-enum-cdc-hook
+  description: Reject PostgreSQL enum rebuilds that break Debezium unless explicitly acknowledged
+  language: python
+  types: [python]
